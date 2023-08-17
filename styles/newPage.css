@@ -1,0 +1,24 @@
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainLabelCentered{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.subText{
+  font-size: 20px;
+}
+
+.subTextUnderLine{
+  text-decoration: underline;
+}
+
+.subTextUnderLine:hover{
+  cursor: pointer;
+  color: blue;
+}

@@ -1,0 +1,262 @@
+.subscribe-button{
+  color: white; 
+  padding: auto;
+  background-color: rgb(204, 0, 0);
+  text-size-adjust: 19;
+  border: 0ch;
+  padding-bottom: 9;
+  padding-top: 9;
+  padding-left: 16;
+  padding-right: 16;
+  margin-right: 20px;
+  border-radius:2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.subscribe-button:hover{
+  opacity: 0.6;
+}
+
+
+.subscribe-button:active{
+  opacity: 0.2;
+}
+
+
+.join-button{
+  color: blue; 
+  padding: auto;
+  text-size-adjust: 19;
+  border-color: blue;
+  border-style: solid;
+  padding-bottom: 9;
+  padding-top: 9;
+  padding-left: 16;
+  padding-right: 16;
+  border-width: 1px;
+  border-radius:2px;
+  cursor: pointer;
+  transition: background-color 1s,
+  color 1s,
+  opacity 3s;
+
+}
+.join-button:hover{
+  background-color: blue;
+  color: white;
+  opacity: 0.5;
+    }
+.join-button:active{
+  opacity: 0.5;
+}
+
+.tweet-button{
+  color: white; 
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  text-size-adjust: 19;
+  background-color: rgb(2, 134, 250);
+  border-radius: 30px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 1.15s;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.BlackSquereBtn{
+  color: white; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: rgb(0, 0, 0);
+  height: 30px;
+  width: 100px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.YellowRoundBtn{
+  color: black; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: yellow;
+  margin-top: 20px;
+  height: 30px;
+  text-overflow: ellipsis;
+  width: 100px;
+  border-radius: 30px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 1.15s;
+}
+
+.YellowRoundBtn:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.OrangeRoundBtn{
+  color: black; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: rgb(255, 164, 28);
+  margin-top: 20px;
+  height: 30px;
+  text-overflow: ellipsis;
+  width: 100px;
+  border-radius: 30px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 1.15s;;
+}
+
+.OrangeRoundBtn:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.GitHobBtn{
+  color: white; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: green;
+  margin-top: 20px;
+  height: 30px;
+  text-overflow: ellipsis;
+  width: 100px;
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.BootstrapPurpleBtn{
+  color: white; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: rgb(133, 58, 133);
+  margin-top: 20px;
+  height: 30px;
+  text-overflow: ellipsis;
+  width: 100px;
+  border-radius: 3px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.BootstrapDownloadBtn{
+  color: grey; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: white(133, 58, 133);
+  margin-top: 20px;
+  height: 30px;
+  text-overflow: ellipsis;
+  border-style: solid;
+  width: 100px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: gray;
+  cursor: pointer;
+}
+.BlueLinkedinBtn{
+  color: white; 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: rgb(56, 105, 184);
+  margin-top: 20px;
+  height: 30px;
+  font-weight: 100;
+  text-overflow: ellipsis;
+  border-style: solid;
+  width: 200px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.SaveLinkedinBtn{
+  color: rgb(56, 105, 184); 
+  padding: auto;
+  text-size-adjust: 19;
+  background-color: white;
+  margin-top: 20px;
+  height: 30px;
+  font-weight: 100;
+  text-overflow: ellipsis;
+  border-style: solid;
+  width: 80px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: rgb(56, 105, 184); 
+  cursor: pointer;
+}
+.BigBlackLabel{
+  color: black; 
+  padding: auto;
+  margin-top: 100px;
+  margin-top: 30px;
+  font-size: 28;
+  vertical-align: top;
+  font-weight: bolder;
+}
+.SubLabel{
+  color: black; 
+  padding: auto;
+  margin-top: 100px;
+  margin-top: 30px;
+  font-size: 14;
+}
+.MediumGreenLabel{
+  color: rgb(45, 148, 45); 
+  padding: auto;
+  margin-top: 100px;
+  margin-top: 30px;
+  font-size: 14;
+  font-weight: bold;
+}
+
+.actionBtn{
+  color: black;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(233, 225, 225);
+  font-size: 14;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 2px;
+  font-weight: 13;
+}
+
+.pageNumberBtn{
+  color: rgb(82, 37, 82);
+  margin: 2px;
+  background-color: transparent;
+  text-underline-offset: 2px;
+  text-decoration: underline;
+  border-color: transparent;
+  cursor: pointer;
+}
+.greenBtn{
+  color: white;
+  margin: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: green;
+  border-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 1.15s,padding-left 1.15s,
+  padding-right 1.15s,padding-top 1.15s,padding-bottom 1.15s ;
+}
+
+.greenBtn:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
