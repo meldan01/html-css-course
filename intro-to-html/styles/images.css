@@ -1,0 +1,113 @@
+.imageThumbnail{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.squareCentered{
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+
+}
+
+.roundImage{
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 112px;
+}
+.smallRoundImage{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 60px;
+}
+
+.sevenD{
+   padding-left: 10px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-style: solid;
+   margin-top: 2px;
+   border-radius: 2px;
+   border-width: 1px;
+  transition: box-shadow 1s;
+}
+.sevenD:hover{
+  cursor:auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.labels{
+  color: rgba(128, 128, 128, 0.8);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: default;
+}
+
+.container{
+display: flex;
+align-items: center;
+
+}
+.centerdlabels{
+  color: rgba(128, 128, 128, 0.8);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+  cursor: default;
+}
+
+.tweetBtn{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 100px;
+  width: 70px;
+  background-color: rgba(58, 128, 219, 0.6);
+  border-color: transparent;
+  border-radius: 26px;
+  transition: box-shadow 2s, color 1s, background-color 1s;
+}
+
+.tweetBtn:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  color: rgba(58, 128, 219, 0.6);
+  background-color: white;
+  cursor: pointer;
+}
+
+.inputBox{
+  margin-bottom: 2px;
+  border-style: solid;
+  border-width: 1px;
+  transition: box-shadow 1s
+}
+
+.inputBox:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.blueButton{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 6px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 370px;
+  background-color: rgba(0, 0, 255,0.6);
+  border-color: transparent;
+  border-radius: 26px;
+  transition: box-shadow 2s;
+}
+
+.blueButton:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
