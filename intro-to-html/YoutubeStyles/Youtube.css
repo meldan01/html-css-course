@@ -1,3 +1,28 @@
-img{
-  width: 250px;
+.imgBig{
+  width: 160px;
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.smallImg{
+  border-radius: 60px;
+  width: 60px;
+}
+
+.mainLabel{
+  color: black;
+  background-color: transparent;
+  width: 140px;
+  font-size: 8px;
+}
+.secondaryLabel, .statsLabel{
+  color: rgba(128, 128, 128,0.9);
+  background-color : transparent;
+  font-size: 6px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.search-Bar{
+  display: flex;
+  margin-bottom: 10px;
 }
