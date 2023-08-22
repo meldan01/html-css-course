@@ -68,6 +68,7 @@
   display: inline-block;
   margin: 25PX;
   width: 220px;
+  vertical-align: top;
 }
 
 .searchbox{
@@ -91,6 +92,7 @@
   color: black;
   background-color: transparent;
   width: 140px;
+  font-weight: bold;
   font-size: 8px;
 }
 .secondaryLabel, .statsLabel{
@@ -101,6 +103,5 @@
 }
 
 .search-Bar{
-  display: flex;
-  margin-bottom: 10px;
+  display: block;
 }
