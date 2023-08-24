@@ -1,0 +1,86 @@
+p {
+  max-width: 100%; /* Optional: Limit the paragraph width to its container */
+  text-align: center; /* Optional: Center-align the text within the paragraphs */
+}
+
+.mainCatDiv{
+  width: 450px;
+  height: 100px;
+  display: block;
+  margin-top: 25px;
+}
+
+.photoDiv{
+  width: 120px;
+  display: inline-flex;
+  height: 100px;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  vertical-align: middle;
+}
+
+.roundPhoto{
+  height: 90px;
+  padding: 10px;
+  border-radius: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.textDiv{
+  font-weight: bolder;
+  max-width: 100%;
+  margin: 3px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 2px;
+
+}
+
+.catName{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  text-align: left;
+  margin: 0px;
+  display: block;
+  font-size: 26px ;
+}
+
+.catsubLabels{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  margin: 0px;
+  text-align: left;
+  display: block;
+  font-size: 26px;
+}
+
+.subTextDiv{
+  height: 40px;
+  margin: 0px;
+  padding: 2px;
+}
+
+
+.blueBtn{
+  border-radius: 5px;
+  color: white;
+  background-color:rgb(7, 144, 242);
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  transition: box-shadow 1s;
+}
+
+.blueBtn:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
