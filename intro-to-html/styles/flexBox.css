@@ -2,3 +2,95 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 border-color: transparent;
 }
+p{
+  margin: 0px;
+}
+.purpleDiv{
+  background-color: rgb(114, 60, 131);
+  display: flex;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+
+}
+
+.serachbar{
+  border-radius: 40px;
+  width: 900px;
+  border-color: transparent;
+  padding: 10px;
+  font-weight: bold;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.downloadBtn{
+  border-color: white;
+  border-width: 2px;
+  color: white;
+  border-style: solid;
+  width: 150px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: transparent;
+
+}
+
+
+
+.facebookPage{
+  display: flex;
+  justify-content:baseline;
+  height: auto;
+  flex-direction: column;
+}
+.facebookLine{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 5px;
+  width: 450px;
+  height: 120px;
+}
+
+.catStatsB{
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin-left: 25px;
+}
+
+.roundImg{
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+
+.blueBtn{
+  background-color: rgb(75, 116, 188);
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  height: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 22px;
+}
+.blueBtn:hover{
+  cursor: pointer;
+}
+
+.firstLinePart{
+  display: flex;
+  flex-direction: row;
+}

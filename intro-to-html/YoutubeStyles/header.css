@@ -1,0 +1,38 @@
+header{
+  display: flex;
+  
+}
+
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.adaptImgSize{
+  height: 60%;
+}
+
+.leftSection{
+  background-color: bisque;
+  width: 170px;
+}
+
+.middleSection{
+flex: 1;
+background-color: chartreuse;
+margin-right: 20px;
+margin-left: 70px;
+max-width: 600px;
+}
+
+.search-Bar{
+  margin-bottom: 10px;
+}
+
+.rightSection{
+background-color: blueviolet;
+width: 400px;
+}
+

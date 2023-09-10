@@ -1,0 +1,9 @@
+p{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  text-overflow: ellipsis;
+}
+
+body{
+  margin: 0;
+}
