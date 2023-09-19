@@ -7,32 +7,113 @@ header{
   height: 70px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
-.adaptImgSize{
-  height: 60%;
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24PX;
+  margin-RIGHT: 24PX;
+}
+
+.youtube-logo{
+  height: 20px;
+  width: 100px;
 }
 
 .leftSection{
-  background-color: bisque;
-  width: 170px;
+  display: flex;
+  align-items: center;
+  height:50%;
 }
 
 .middleSection{
-flex: 1;
-background-color: chartreuse;
-margin-right: 20px;
-margin-left: 70px;
-max-width: 600px;
+  flex: 1;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 70px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 600px;
+  height: 100px;
+  }
+
+.searchDiv{
+  flex: 1;
+  justify-content:space-between;
+  margin-right: 20px;
+  max-width: 600px;
+  height:50%;
+}
+
+.searchArea{
+  display: flex;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: rgba(180, 180, 180, 0.8);
 }
 
 .search-Bar{
-  margin-bottom: 10px;
+  flex: 1;
+  padding-left: 10px;
+  height: 36px;
+  font-size: 18px;
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 5px rgba(0, 0,0, 0.3) ;
+  width: 0;
+}
+
+.search-Bar::placeholder{
+  font-family: Roboto,arial;
+  font-size: 16px;
+}
+
+.searchBtn{
+  width: 60px;
+  height: 40px;
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+  margin-left: -2px;
+  border-radius: 1px;
+  cursor: pointer;
+  border-width: 1px;
+}
+
+.searchImage{
+  height: 25px;
+}
+
+.roundGrayBtn{
+  width: 40px;
+  margin-left: 20px;
+  height: 40px; 
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0,0, 0.05);
+}
+
+.imgInsideRoundBtn{
+  width: 100%;
+  border-radius: 40px;
+  height: 40px
+}
+
+.current-user-picture{
+  border-radius: 40px;
+  height: 32px;
 }
 
 .rightSection{
-background-color: blueviolet;
+display: flex;
+flex-shrink: 0;
+flex-direction: row;
+align-items: center;
+justify-content: right;
 width: 400px;
 }
 
