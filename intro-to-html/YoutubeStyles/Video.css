@@ -4,10 +4,15 @@
   word-wrap: break-word; /* Wrap long words onto the next line */
   overflow: hidden; /* Hide any overflowing content */
   display: grid;
+  padding-top: 80px;
+  padding-left: 110px;
+  z-index: 100;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 10px;
 }
+
+
 
 .imgBig{
   width: 100%;
@@ -21,6 +26,7 @@
 .bigImgContainer{
   margin: 0px;
   padding-bottom: 5px;
+  position: relative;
 }
 
 .subAreaDivider{
@@ -69,3 +75,15 @@
 }
 
 
+.videoTime{
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

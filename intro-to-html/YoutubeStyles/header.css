@@ -6,20 +6,31 @@ header{
 .header{
   height: 70px;
   display: flex;
+  background-color: white;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 101;
   flex-direction: row;
+  border-bottom-width:1px ;
+  border-color: rgba(180, 180, 180, 0.6);
+  border-bottom-style: solid;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
 }
 
+
+
 .hamburger-menu{
-  height: 24px;
-  margin-left: 24PX;
-  margin-RIGHT: 24PX;
+  height: 36px;
+  margin-left: 30PX;
+  margin-RIGHT: 30PX;
 }
 
 .youtube-logo{
-  height: 20px;
-  width: 100px;
+  height: 36px;
+  width: 140px;
 }
 
 .leftSection{
@@ -97,15 +108,25 @@ header{
   background-color: rgba(0, 0,0, 0.05);
 }
 
+.genericBtn{
+  width: 40px;
+  margin-left: 20px;
+  height: 40px; 
+  cursor: pointer;
+  border: none;
+background-color: transparent;
+}
+
 .imgInsideRoundBtn{
   width: 100%;
   border-radius: 40px;
   height: 40px
+
 }
 
 .current-user-picture{
   border-radius: 40px;
-  height: 32px;
+  height: 40px;
 }
 
 .rightSection{
