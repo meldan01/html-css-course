@@ -2,9 +2,13 @@
 .sideBarElement{
   height: 100px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: background-color 0.5s;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .sideBarElement:hover{
@@ -20,6 +24,7 @@
   position: fixed;
   width: 110px;
   left: 0px;
+  z-index: 103;
   top: 70px;
   bottom: 0px;
   background-color: white;

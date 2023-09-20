@@ -24,7 +24,7 @@ header{
 
 .hamburger-menu{
   height: 36px;
-  margin-left: 30PX;
+  margin-left: 36PX;
   margin-RIGHT: 30PX;
 }
 
@@ -91,8 +91,30 @@ header{
   margin-left: -2px;
   border-radius: 1px;
   cursor: pointer;
+  position: relative;
   border-width: 1px;
 }
+
+.searchBtn .tooltip{
+    position: absolute;
+    right: 0px;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 2px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+.searchBtn:hover .tooltip{
+  opacity: 1;
+} 
 
 .searchImage{
   height: 25px;
@@ -108,33 +130,76 @@ header{
   background-color: rgba(0, 0,0, 0.05);
 }
 
+.roundGrayBtn .tooltip{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 2px;
+  bottom: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.roundGrayBtn:hover .tooltip{
+  opacity: 1;
+} 
+
 .genericBtn{
   width: 40px;
   margin-left: 20px;
   height: 40px; 
   cursor: pointer;
   border: none;
-background-color: transparent;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.genericBtn:hover{
+  background-color: rgba(180, 180, 180, 0.6);
 }
 
 .imgInsideRoundBtn{
   width: 100%;
   border-radius: 40px;
-  height: 40px
+  height: 40px;
 
 }
 
 .current-user-picture{
-  border-radius: 40px;
-  height: 40px;
+  border-radius: 50px;
+  height: 50px;
 }
 
 .rightSection{
 display: flex;
 flex-shrink: 0;
 flex-direction: row;
+padding-right: 30px;
 align-items: center;
 justify-content: right;
 width: 400px;
+}
+
+.notificationsDiv{
+  position: relative;
+}
+
+.notificationsNumber{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 20px;
+  top: 2px;
+  right: 1px;
+  font-weight: 500;
 }
 
